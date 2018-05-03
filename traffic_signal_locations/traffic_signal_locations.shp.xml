@@ -1,0 +1,1337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="TSO.xsl"?>
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20180120</CreaDate>
+		<CreaTime>13443700</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20180120</SyncDate>
+		<SyncTime>09360300</SyncTime>
+		<ModDate>20180120</ModDate>
+		<ModTime>09360300</ModTime>
+		<Sync>TRUE</Sync>
+		<MetaID>{11621DEF-D38C-4020-AE0A-AD5117EFCA1A}</MetaID>
+		<DataProperties>
+			<itemProps>
+				<itemName Sync="TRUE">traffic_signal_locations</itemName>
+				<nativeExtBox>
+					<westBL Sync="TRUE">-119434.527045</westBL>
+					<eastBL Sync="TRUE">595990.284245</eastBL>
+					<southBL Sync="TRUE">2715403.036123</southBL>
+					<northBL Sync="TRUE">3444398.602498</northBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</nativeExtBox>
+				<itemSize Sync="TRUE">0.281</itemSize>
+				<itemLocation>
+					<linkage Sync="TRUE">file://\\DCS-DOT-WS08\D$\temp\Shapes\traffic_signal_locations.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+				<imsContentType Sync="TRUE">002</imsContentType>
+			</itemProps>
+			<coordRef>
+				<type Sync="TRUE">Projected</type>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+				<projcsn Sync="TRUE">NAD_1983_UTM_Zone_17N</projcsn>
+				<peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_UTM_Zone_17N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-81.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26917]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26917&lt;/WKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+			</coordRef>
+		</DataProperties>
+		<ArcGISFormat>1.0</ArcGISFormat>
+	</Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.3000</native>
+		<descript>
+			<langdata Sync="TRUE">en</langdata>
+			<abstract>The Traffic Signals feature class shows the location of traffic signals in the state of Florida for on system roadways as derived from event mapping Feature 322, characteristics MAINTAGC, SDESTRET, SIGNALID, SIGNALNC, SIGNALTY, SIGOPDTE, SIGSTRCT and TYPECABL from the FDOT Roadway Characteristics Inventory data.</abstract>
+			<purpose>The FDOT Traffic Signal Locations feature class provides spatial information on locations of traffic signals in RCI. District Traffic Operations Office is responsible for collecting and maintaining this information for on-system roadways. Some characteristics have been created to assist districts with their specific traffic operations data collection needs.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin> Florida Department of Transportation, Transportation Data &amp; Analytics Office (TDA) 
+</origin>
+				<pubdate>20180120</pubdate>
+				<title>Traffic Signal Locations</title>
+				<ftname Sync="TRUE">traffic_signal_locations</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="FALSE">https://ftp.fdot.gov/file/d/FTP/FDOT/co/planning/transtat/gis/shapefiles/traffic_signal_locations.zip</onlink>
+				<serinfo>
+					<sername>Traffic Data Layers</sername>
+					<issue>TDL</issue>
+				</serinfo>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>Data are valid from the publication date until a new feature class is published.  This dataset is updated every Saturday.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>20180120</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Weekly</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-87.479989</westbc>
+				<eastbc Sync="TRUE">-79.993169</eastbc>
+				<northbc Sync="TRUE">31.133512</northbc>
+				<southbc Sync="TRUE">24.429005</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">-119434.527045</leftbc>
+				<rightbc Sync="TRUE">595990.284245</rightbc>
+				<bottombc Sync="TRUE">2715402.947291</bottombc>
+				<topbc Sync="TRUE">3444398.602498</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Transportation</themekey>
+				<themekey>Traffic Signal Locations</themekey>
+				<themekey>Roads</themekey>
+				<themekey>Highways</themekey>
+				<themekey>Roadway Characteristics Inventory</themekey>
+				<themekey>RCI</themekey>
+				<themekey>Feature 322</themekey>
+				<themekey>MAINTAGC</themekey>
+				<themekey>SDESTRET</themekey>
+				<themekey>SIGNALID</themekey>
+				<themekey>SIGNALNC</themekey>
+				<themekey>SIGNALTY</themekey>
+				<themekey>SIGOPDTE</themekey>
+				<themekey>SIGSTRCT</themekey>
+				<themekey>TYPECABL</themekey>
+				<themekey>Florida Department of Transportation</themekey>
+				<themekey>FDOT</themekey>
+				<themekey>Transportation Data and Analytics</themekey>
+				<themekey>TDA</themekey>
+				<themekey>Florida</themekey>
+				<themekey>FL</themekey>
+			</theme>
+			<place>
+				<placekey>Florida</placekey>
+				<placekt>None</placekt>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>This product has been compiled from the most accurate source data from the Florida Department of Transportation's Transportation Data &amp; Analytics Office. However, this product is for reference purposes only and is not to be construed as a legal document or survey instrument. Any reliance on the information contained herein is at the user's own risk. The Florida Department of Transportation assumes no responsibility for any use of the information contained herein or any loss resulting therefrom.</useconst>
+		<natvform Sync="TRUE">Shapefile</natvform>
+		<ptcontac>
+			<cntinfo>
+				<cntvoice>(850) 414-4848</cntvoice>
+				<cnttdd>Florida Department of Transportation: TDD/TTY: 850-410-5708</cnttdd>
+				<cnttdd>Florida Relay: 711</cnttdd>
+				<cnttdd>Florida Relay: 1-800-955-8771 (TTY)</cnttdd>
+				<cnttdd>Florida Relay: 1-800-955-8770 (Voice)</cnttdd>
+				<cnttdd>Florida Relay: 1-800-955-1339 (ASCII)</cnttdd>
+				<cntperp>
+					<cntper>GIS Section Manager</cntper>
+					<cntorg>FDOT Transportation Data &amp; Analytics Office </cntorg>
+				</cntperp>
+				<cntpos>Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Transportation Data &amp; Analytics Office, 605 Suwannee Street, MS 27 </address>
+					<city>Tallahassee</city>
+					<state>Florida</state>
+					<postal>32399-0450</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>Toll Free: (800) 399-5503</cntvoice>
+				<cnttdd>Florida Relay: 1-877-955-8773 (Spanish)</cnttdd>
+				<cntemail>CO-TDAGIS@dot.state.fl.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<metainfo>
+		<langmeta Sync="TRUE">en</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<city>Tallahassee</city>
+					<state>Florida</state>
+					<postal>32399-0450</postal>
+					<address>Transportation Data &amp; Analytics Office, 605 Suwannee Street, MS 27</address>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(850) 414-4848/Toll Free: (800) 399-5503</cntvoice>
+				<cntpos>GIS Section Manager</cntpos>
+				<cntorgp>
+					<cntorg>FDOT Transportation Data &amp; Analytics Office</cntorg>
+					<cntper>GIS Section Manager</cntper>
+				</cntorgp>
+				<cntemail>CO-TDAGIS@dot.state.fl.us </cntemail>
+				<cnttdd>Florida Department of Transportation: TDD/TTY: 850-410-5708</cnttdd>
+				<cnttdd>Florida Relay: 711</cnttdd>
+				<cnttdd>Florida Relay: 1-800-955-8771 (TTY)</cnttdd>
+				<cnttdd>Florida Relay: 1-800-955-8770 (Voice)</cnttdd>
+				<cnttdd>Florida Relay: 1-800-955-1339 (ASCII)</cnttdd>
+				<cnttdd>Florida Relay: 1-877-955-8773 (Spanish)</cnttdd>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20160416</metd>
+	</metainfo>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">0.281</transize>
+					<dssize Sync="TRUE">0.281</dssize>
+					<formname>Shapefile</formname>
+					<formvern>N/A</formvern>
+					<formspec>shapefile</formspec>
+					<filedec>zip compression</filedec>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>https://ftp.fdot.gov/file/d/FTP/FDOT/co/planning/transtat/gis/shapefiles/traffic_signal_locations.zip</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+					<offoptn>
+						<offmedia>CD-ROM</offmedia>
+						<recfmt>zip</recfmt>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>None</fees>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>GIS Section Manager</cntper>
+					<cntorg>FDOT Transportation Data &amp; Analytics Office</cntorg>
+				</cntperp>
+				<cntpos>GIS Section Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Transportation Data &amp; Analytics Office, 605 Suwannee Street, MS-27</address>
+					<city>Tallahassee</city>
+					<state>Florida</state>
+					<postal>32399-0450</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(850) 414-4848/Toll Free: (800) 399-5503</cntvoice>
+				<cntemail>CO-TDAGIS@dot.state.fl.us</cntemail>
+				<cnttdd>Florida Department of Transportation: TDD/TTY: 850-410-5708</cnttdd>
+				<cnttdd>Florida Relay: 711</cnttdd>
+				<cnttdd>Florida Relay: 1-800-955-8771 (TTY)</cnttdd>
+				<cnttdd>Florida Relay: 1-800-955-8770 (Voice)</cnttdd>
+				<cnttdd>Florida Relay: 1-800-955-1339 (ASCII)</cnttdd>
+				<cnttdd>Florida Relay: 1-877-955-8773 (Spanish)</cnttdd>
+			</cntinfo>
+		</distrib>
+		<distliab>This product has been compiled from the most accurate source data from the Florida Department of Transportation's Transportation Data &amp; Analytics Office. However, this product is for reference purposes only and is not to be construed as a legal document or survey instrument. Any reliance on the information contained herein is at the user's own risk. The Florida Department of Transportation assumes no responsibility for any use of the information contained herein or any loss resulting therefrom.</distliab>
+	</distinfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="1" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">10503</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<projcsn Sync="TRUE">NAD_1983_UTM_Zone_17N</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres>0.001024</absres>
+						<ordres>0.001024</ordres>
+					</coordrep>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="traffic_signal_locations">
+			<enttyp>
+				<enttypl Sync="TRUE">traffic_signal_locations</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">10503</enttypc>
+				<enttypds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</enttypds>
+				<enttypd>Traffic signal locations.  RCI designation - SIGNALTY.</enttypd>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">RDWYID</attrlabl>
+				<attalias Sync="TRUE">RDWYID</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<attrdef>A unique 8-character identification number assigned to a roadway or section of a roadway either On or Off the State Highway System for which information is maintained in the Department's Roadway Characteristics Inventory (RCI).</attrdef>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+				<attrdomv>
+					<udom>8-character ID, the first two characters are the county code, the next  3 are the section code, and final 3 characters are the subsection code</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SIDE</attrlabl>
+				<attalias Sync="TRUE">SIDE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">1</attwidth>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+				<attrdef>The side of the roadway the signal is located</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>C</edomv>
+						<edomvd>Composite side of the road which is non-divided.</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>L</edomv>
+						<edomvd>Left side of the roadway</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>R</edomv>
+						<edomvd>Right side of the roadway</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">VALUE_</attrlabl>
+				<attalias Sync="TRUE">VALUE_</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>01</edomv>
+						<edomvd>Flashing Beacon (01)</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>02</edomv>
+						<edomvd>Traffic Signal (standard red/yellow/green traffic signal located at an intersection of two or more roadways) (02)</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>03</edomv>
+						<edomvd>Mid-block Pedestrian Control (standard red/yellow/green traffic signal for the sole purpose to stop the traffic for pedestrians to safely cross the roadway) (03)</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>04</edomv>
+						<edomvd>Emergency Signal (04)</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>05</edomv>
+						<edomvd>School Signal (05)</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>Types of traffic signals</attrdef>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EFFDATE</attrlabl>
+				<attalias Sync="TRUE">EFFDATE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<attrdef>Date when the signal was put in use.</attrdef>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+				<attrdomv>
+					<udom>Date when the signal was put in use.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CNTLRDES</attrlabl>
+				<attalias Sync="TRUE">CNTLRDES</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+				<attrdef>Controller description</attrdef>
+				<attrdomv>
+					<udom>Describes the type of signal operating plan being used at the particular signalized intersection.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MAINTAGC</attrlabl>
+				<attalias Sync="TRUE">MAINTAGC</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+				<attrdef>Maintaining agency name</attrdef>
+				<attrdomv>
+					<udom>Describes the city or county that has entered into Agreement with the Department to maintain the signals at the intersection.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SDESTRET</attrlabl>
+				<attalias Sync="TRUE">SDESTRET</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+				<attrdef>Side street name</attrdef>
+				<attrdomv>
+					<udom>Name of the intersecting street at the traffic signal.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SIGNALID</attrlabl>
+				<attalias Sync="TRUE">SIGNALID</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+				<attrdef>Signal cabinet ID number</attrdef>
+				<attrdomv>
+					<udom>Signal cabinet ID number designated by the district.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SIGNALNC</attrlabl>
+				<attalias Sync="TRUE">SIGNALNC</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>01</edomv>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+						<edomvd>Flashing Beacon</edomvd>
+					</edom>
+					<edom>
+						<edomv>02</edomv>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+						<edomvd>Intersection Control</edomvd>
+					</edom>
+					<edom>
+						<edomv>03</edomv>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+						<edomvd>Mid-Block Pedestrian Control</edomvd>
+					</edom>
+					<edom>
+						<edomv>04</edomv>
+						<edomvd>Emergency Signal</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>N/A</edomv>
+						<edomvd>Not Available</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>Non-counted signal - A non-counted siganl type characteristic is used when a signalized intersection consists of two state roads.  The roadway that has a higher AADT should be considered the major street and recorded under the SIGNALTY characteristic while interescting roadway that has a lower AADT is considered the minor street and recorded under this SIGNALNC characteristc.</attrdef>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SIGSTRCT</attrlabl>
+				<attalias Sync="TRUE">SIGSTRCT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>01</edomv>
+						<edomvd>Mast Arm</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>02</edomv>
+						<edomvd>Wood Strain Pole</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>03</edomv>
+						<edomvd>Concrete Strain Pole</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>04</edomv>
+						<edomvd>Steel Strain Pole</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>N/A</edomv>
+						<edomvd>Not Available</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>Type traffic signal structure</attrdef>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPECABL</attrlabl>
+				<attalias Sync="TRUE">TYPECABL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+				<attrdef>Type of traffic signal cable connection</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>01</edomv>
+						<edomvd>Single Point Connection</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>02</edomv>
+						<edomvd>Two Point Connection</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>N/A</edomv>
+						<edomvd>Not Available</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SEC_STAT</attrlabl>
+				<attalias Sync="TRUE">SEC_STAT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">12</attwidth>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>ON</edomv>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+						<edomvd>Active On the SHS - Roads owned and maintained by FDOT as part of the State Highway System (SHS) with the exception that some are maintained by other State Agencies, such as State-chartered Expressway Authorities.</edomvd>
+					</edom>
+					<edom>
+						<edomv>OFF</edomv>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+						<edomvd>Active Off the SHS - The Roadway ID or a segment of a Roadway ID that is not part of the State Highway System (SHS), which is maintained by others (counties or cities), yet for which FDOT collects certain data for reporting purposes.</edomvd>
+					</edom>
+					<edom>
+						<edomv>EXCLUSIVE</edomv>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+						<edomvd>EXCLUSIVE means excluded from standard mileage reports. These roads (including ramps, frontage roads, and similar configurations) are considered to be part of another road, not separate roads in their own right). The term is usually used in combination with Active-Exclusive (associated with an Active road on the State Highway System) or Active-Off-Exclusive (associated with an Active road that is not on the State Highway System).</edomvd>
+					</edom>
+					<edom>
+						<edomv>PENDING</edomv>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+						<edomvd>New construction anticipated to be added to the State Highway System (SHS).</edomvd>
+					</edom>
+					<edom>
+						<edomv>N/A</edomv>
+						<edomvd>Not Available</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>Section Status</attrdef>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BEGPT</attrlabl>
+				<attalias Sync="TRUE">BEGPT</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">13</attwidth>
+				<attrdef>Begin mile point for traffic signal of the roadway</attrdef>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+				<attrdomv>
+					<udom>Begin mile point for traffic signal of the roadway</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">12</atprecis>
+				<attscale Sync="TRUE">4</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
+	<dataqual>
+		<logic>All data for this dataset are logically consistent.</logic>
+		<complete>This dataset is complete as of date of production.</complete>
+		<lineage>
+			<procstep>
+				<procdesc>This dataset was created using ESRI event mapping.  The route system is the Transportation Data and Analytics' linear referencing system (LRS).  The event source data are from the signalty table stored in Oracle.  The query used to generate the event source table is:
+select * from signalty;</procdesc>
+				<procsv>ESRI ArcObjects</procsv>
+				<procdate>20180120</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<mdLang>
+		<languageCode value="eng"/>
+		<countryCode value="USA" Sync="TRUE">
+		</countryCode>
+	</mdLang>
+	<mdChar>
+		<CharSetCd value="004"/>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd value="005"/>
+	</mdHrLv>
+	<mdContact>
+		<rpIndName>GIS Section Manager</rpIndName>
+		<rpOrgName>FDOT Transportation Data &amp; Analytics Office</rpOrgName>
+		<rpPosName>GIS Section Manager</rpPosName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>(850) 414-4848/Toll Free: (800) 399-5503</voiceNum>
+				<voiceNum tddtty="True">Florida Relay: 1-800-955-8771 (TTY)</voiceNum>
+				<voiceNum tddtty="True">Florida Relay: 1-877-955-8773 (Spanish)</voiceNum>
+				<voiceNum tddtty="True">Florida Relay: 1-800-955-8770 (Voice)</voiceNum>
+				<voiceNum tddtty="True">Florida Department of Transportation: TDD/TTY: 850-410-5708</voiceNum>
+				<voiceNum tddtty="True">Florida Relay: 1-800-955-1339 (ASCII)</voiceNum>
+				<voiceNum tddtty="True">Florida Relay: 711</voiceNum>
+			</cntPhone>
+			<cntAddress addressType="both">
+				<delPoint>Transportation Data &amp; Analytics Office, 605 Suwannee Street, MS 27</delPoint>
+				<city>Tallahassee</city>
+				<adminArea>Florida</adminArea>
+				<postCode>32399-0450</postCode>
+				<country>US</country>
+				<eMailAdd>CO-TDAGIS@dot.state.fl.us</eMailAdd>
+			</cntAddress>
+		</rpCntInfo>
+		<role>
+			<RoleCd value="007"/>
+		</role>
+	</mdContact>
+	<mdStanName>ArcGIS Metadata</mdStanName>
+	<mdStanVer>1.0</mdStanVer>
+	<distInfo>
+		<distributor>
+			<distorCont>
+				<rpIndName>GIS Section Manager</rpIndName>
+				<rpOrgName>FDOT Transportation Data &amp; Analytics Office</rpOrgName>
+				<rpPosName>GIS Section Manager</rpPosName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>(850) 414-4848/Toll Free: (800) 399-5503</voiceNum>
+						<voiceNum tddtty="True">Florida Relay: 1-800-955-1339 (ASCII)</voiceNum>
+						<voiceNum tddtty="True">Florida Department of Transportation: TDD/TTY: 850-410-5708</voiceNum>
+						<voiceNum tddtty="True">Florida Relay: 1-800-955-8770 (Voice)</voiceNum>
+						<voiceNum tddtty="True">Florida Relay: 711</voiceNum>
+						<voiceNum tddtty="True">Florida Relay: 1-877-955-8773 (Spanish)</voiceNum>
+						<voiceNum tddtty="True">Florida Relay: 1-800-955-8771 (TTY)</voiceNum>
+					</cntPhone>
+					<cntAddress addressType="both">
+						<delPoint>Transportation Data &amp; Analytics Office, 605 Suwannee Street, MS-27</delPoint>
+						<city>Tallahassee</city>
+						<adminArea>Florida</adminArea>
+						<postCode>32399-0450</postCode>
+						<country>US</country>
+						<eMailAdd>CO-TDAGIS@dot.state.fl.us</eMailAdd>
+					</cntAddress>
+				</rpCntInfo>
+				<role>
+					<RoleCd value="005"/>
+				</role>
+			</distorCont>
+			<distorOrdPrc>
+				<resFees>None</resFees>
+			</distorOrdPrc>
+			<distorFormat>
+				<formatName>Shapefile</formatName>
+				<formatVer>N/A</formatVer>
+				<formatSpec>shapefile</formatSpec>
+				<fileDecmTech>zip compression</fileDecmTech>
+			</distorFormat>
+			<distorTran>
+				<onLineSrc>
+					<linkage>https://ftp.fdot.gov/file/d/FTP/FDOT/co/planning/transtat/gis/shapefiles/traffic_signal_locations.zip</linkage>
+				</onLineSrc>
+			</distorTran>
+			<distorTran>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001"/>
+					</medName>
+				</offLineMed>
+			</distorTran>
+		</distributor>
+		<distTranOps>
+			<onLineSrc>
+				<linkage>https://ftp.fdot.gov/file/d/FTP/FDOT/co/planning/transtat/gis/shapefiles/traffic_signal_locations.zip</linkage>
+			</onLineSrc>
+			<transSize Sync="TRUE">0.281</transSize>
+		</distTranOps>
+		<distFormat>
+			<formatName Sync="TRUE">Shapefile</formatName>
+		</distFormat>
+	</distInfo>
+	<dataIdInfo>
+		<idCitation>
+			<resTitle>Traffic Signal Locations</resTitle>
+			<date>
+				<pubDate>20180120</pubDate>
+			</date>
+			<citRespParty>
+				<rpOrgName>Florida Department of Transportation, Transportation Data &amp; Analytics Office (TDA)</rpOrgName>
+				<role>
+					<RoleCd value="006"/>
+				</role>
+			</citRespParty>
+			<datasetSeries>
+				<seriesName>Traffic Data Layers</seriesName>
+				<issId>TDL</issId>
+			</datasetSeries>
+			<presForm>
+				<PresFormCd value="005" Sync="TRUE">
+				</PresFormCd>
+			</presForm>
+		</idCitation>
+		<idAbs>The Traffic Signals feature class shows the location of traffic signals in the state of Florida for on system roadways as derived from event mapping Feature 322, characteristics MAINTAGC, SDESTRET, SIGNALID, SIGNALNC, SIGNALTY, SIGOPDTE, SIGSTRCT and TYPECABL from the FDOT Roadway Characteristics Inventory data.</idAbs>
+		<idPurp>The FDOT Traffic Signal Locations feature class provides spatial information on locations of traffic signals in RCI. District Traffic Operations Office is responsible for collecting and maintaining this information for on-system roadways. Some characteristics have been created to assist districts with their specific traffic operations data collection needs.</idPurp>
+		<idStatus>
+			<ProgCd value="001"/>
+		</idStatus>
+		<idPoC>
+			<rpIndName>GIS Section Manager</rpIndName>
+			<rpOrgName>FDOT Transportation Data &amp; Analytics Office</rpOrgName>
+			<rpPosName>Manager</rpPosName>
+			<rpCntInfo>
+				<cntPhone>
+					<voiceNum>Toll Free: (800) 399-5503</voiceNum>
+					<voiceNum>(850) 414-4848</voiceNum>
+					<voiceNum tddtty="True">Florida Relay: 1-800-955-8770 (Voice)</voiceNum>
+					<voiceNum tddtty="True">Florida Relay: 711</voiceNum>
+					<voiceNum tddtty="True">Florida Relay: 1-877-955-8773 (Spanish)</voiceNum>
+					<voiceNum tddtty="True">Florida Relay: 1-800-955-8771 (TTY)</voiceNum>
+					<voiceNum tddtty="True">Florida Department of Transportation: TDD/TTY: 850-410-5708</voiceNum>
+					<voiceNum tddtty="True">Florida Relay: 1-800-955-1339 (ASCII)</voiceNum>
+				</cntPhone>
+				<cntAddress addressType="both">
+					<delPoint>Transportation Data &amp; Analytics Office, 605 Suwannee Street, MS 27</delPoint>
+					<city>Tallahassee</city>
+					<adminArea>Florida</adminArea>
+					<postCode>32399-0450</postCode>
+					<country>US</country>
+					<eMailAdd>CO-TDAGIS@dot.state.fl.us</eMailAdd>
+				</cntAddress>
+			</rpCntInfo>
+			<role>
+				<RoleCd value="007"/>
+			</role>
+		</idPoC>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="003"/>
+			</maintFreq>
+		</resMaint>
+		<placeKeys>
+			<keyword>Florida</keyword>
+		</placeKeys>
+		<themeKeys>
+			<keyword>Highways</keyword>
+			<keyword>Transportation</keyword>
+			<keyword>Roads</keyword>
+			<keyword>Traffic Signal Locations</keyword>
+			<keyword>Roadway Characteristics Inventory</keyword>
+			<keyword>RCI</keyword>
+			<keyword>Feature 322</keyword>
+			<keyword>MAINTAGC</keyword>
+			<keyword>SDESTRET</keyword>
+			<keyword>SIGNALID</keyword>
+			<keyword>SIGNALNC</keyword>
+			<keyword>SIGNALTY</keyword>
+			<keyword>SIGOPDTE</keyword>
+			<keyword>SIGSTRCT</keyword>
+			<keyword>TYPECABL</keyword>
+			<keyword>Florida Department of Transportation</keyword>
+			<keyword>FDOT</keyword>
+			<keyword>Transportation Data and Analytics</keyword>
+			<keyword>TDA</keyword>
+			<keyword>Florida</keyword>
+			<keyword>FL</keyword>
+		</themeKeys>
+		<searchKeys>
+			<keyword>Highways</keyword>
+			<keyword>Transportation</keyword>
+			<keyword>Florida</keyword>
+			<keyword>Roads</keyword>
+			<keyword>Traffic Signal Locations</keyword>
+			<keyword>Feature 322<keyword>SIGNALID</keyword></keyword>
+			<keyword>MAINTAGC</keyword>
+			<keyword>SDESTRET</keyword>
+			<keyword>SIGNALID</keyword>
+			<keyword>SIGNALNC</keyword>
+			<keyword>SIGNALTY</keyword>
+			<keyword>SIGOPDTE</keyword>
+			<keyword>SIGSTRCT</keyword>
+			<keyword>TYPECABL</keyword>
+			<keyword>Florida Department of Transportation</keyword>
+			<keyword>FDOT</keyword>
+			<keyword>Transportation Data and Analytics</keyword>
+			<keyword>TDA</keyword>
+			<keyword>FL</keyword>
+		</searchKeys>
+		<resConst>
+			<LegConsts>
+				<useLimit>This product has been compiled from the most accurate source data from the Florida Department of Transportation's Transportation Data &amp; Analytics Office. However, this product is for reference purposes only and is not to be construed as a legal document or survey instrument. Any reliance on the information contained herein is at the user's own risk. The Florida Department of Transportation assumes no responsibility for any use of the information contained herein or any loss resulting therefrom.</useLimit>
+			</LegConsts>
+		</resConst>
+		<resConst>
+			<Consts>
+				<useLimit>This product has been compiled from the most accurate source data from the Florida Department of Transportation's Transportation Data &amp; Analytics Office. However, this product is for reference purposes only and is not to be construed as a legal document or survey instrument. Any reliance on the information contained herein is at the user's own risk. The Florida Department of Transportation assumes no responsibility for any use of the information contained herein or any loss resulting therefrom.</useLimit>
+			</Consts>
+		</resConst>
+		<dataLang>
+			<languageCode value="eng"/>
+			<countryCode value="USA" Sync="TRUE">
+			</countryCode>
+		</dataLang>
+		<tpCat>
+			<TopicCatCd value="018"/>
+		</tpCat>
+		<tpCat>
+			<TopicCatCd value="013"/>
+		</tpCat>
+		<dataExt>
+			<exDesc>Data are valid from the publication date until a new feature class is published. This dataset is updated every Saturday.</exDesc>
+			<tempEle>
+				<TempExtent>
+					<exTemp>
+						<TM_Instant>
+							<tmPosition>20180120</tmPosition>
+						</TM_Instant>
+					</exTemp>
+				</TempExtent>
+			</tempEle>
+			<geoEle/>
+		</dataExt>
+		<envirDesc Sync="TRUE">Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.5.4400</envirDesc>
+		<spatRpType>
+			<SpatRepTypCd value="001" Sync="TRUE">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="search">
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<westBL Sync="TRUE">-87.479989</westBL>
+					<eastBL Sync="TRUE">-79.993169</eastBL>
+					<northBL Sync="TRUE">31.133512</northBL>
+					<southBL Sync="TRUE">24.429006</southBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+	</dataIdInfo>
+	<dqInfo>
+		<dqScope>
+			<scpLvl>
+				<ScopeCd value="005"/>
+			</scpLvl>
+		</dqScope>
+		<report type="DQConcConsis">
+			<measDesc>All data for this dataset are logically consistent.</measDesc>
+		</report>
+		<report type="DQCompOm">
+			<measDesc>This dataset is complete as of date of production.</measDesc>
+		</report>
+		<dataLineage>
+			<prcStep>
+				<stepDesc>This dataset was created using ESRI event mapping. The route system is the Transportation Data and Analytics' linear referencing system (LRS). The event source data are from the signalty table stored in Oracle. The query used to generate the event source table is: select * from signalty;</stepDesc>
+				<stepDateTm>20180120</stepDateTm>
+			</prcStep>
+		</dataLineage>
+	</dqInfo>
+	<Binary>
+		<Enclosure>
+			<Descript>original metadata</Descript>
+			<Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="48b80fa4b2b383f7b7d179d85c8da2" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjw/eG1sLXN0eWxlc2hlZXQg
+dHlwZT0idGV4dC94c2wiIGhyZWY9IlRTTy54c2wiPz4NCjwhLS08IURPQ1RZUEUgbWV0YWRhdGEg
+U1lTVEVNICJodHRwOi8vd3d3LmVzcmkuY29tL21ldGFkYXRhL2Vzcmlwcm9mODAuZHRkIj4tLT4N
+CjxtZXRhZGF0YSB4bWw6bGFuZz0iZW4iPg0KICA8RXNyaT4NCiAgICA8Q3JlYURhdGU+MjAwOTAx
+Mjc8L0NyZWFEYXRlPg0KICAgIDxDcmVhVGltZT4xMzQ0MzcwMDwvQ3JlYVRpbWU+DQogICAgPFN5
+bmNPbmNlPkZBTFNFPC9TeW5jT25jZT4NCiAgICA8U3luY0RhdGU+MjAxNzAyMTg8L1N5bmNEYXRl
+Pg0KICAgIDxTeW5jVGltZT4wOTI1NDcwMDwvU3luY1RpbWU+DQogICAgPE1vZERhdGU+MjAxNzAy
+MTg8L01vZERhdGU+DQogICAgPE1vZFRpbWU+MDkyNTQ3MDA8L01vZFRpbWU+DQogICAgPFN5bmM+
+VFJVRTwvU3luYz4NCiAgICA8TWV0YUlEPnsxMTYyMURFRi1EMzhDLTQwMjAtQUUwQS1BRDUxMTdF
+RkNBMUF9PC9NZXRhSUQ+DQogIDwvRXNyaT4NCiAgPGlkaW5mbz4NCiAgICA8ZGVzY3JpcHQ+DQog
+ICAgICA8YWJzdHJhY3Q+VGhlIFRyYWZmaWMgU2lnbmFsIExvY2F0aW9ucyBmZWF0dXJlIGNsYXNz
+IGNvdmVycyB0aGUgc3RhdGUgb2YgRmxvcmlkYSBhdCBhIHNjYWxlIG9mIDE6MjQsMDAwIHdpdGgg
+YSBwcm9qZWN0aW9uIHN5c3RlbSBvZiBVbml2ZXJzYWwgVHJhbnN2ZXJzZSBNZXJjYXRvciAoVVRN
+KSAxNyBOb3J0aCB6b25lIGFuZCBhIGhvcml6b250YWwgZGF0dW0gb2YgTm9ydGggQW1lcmljYW4g
+MTk4MyAoTkFEIDE5ODMpLiBUaGUgbWFwIHVuaXRzIGFyZSBpbiBtZXRlcnMuPC9hYnN0cmFjdD4N
+CiAgICAgIDxwdXJwb3NlPlRoZSBGRE9UIEdJUyBUcmFmZmljIFNpZ25hbCBMb2NhdGlvbnMgZmVh
+dHVyZSBjbGFzcyBwcm92aWRlcyBzcGF0aWFsIGluZm9ybWF0aW9uIG9uIGxvY2F0aW9ucyBvZiB0
+cmFmZmljIHNpZ25hbHMgaW4gUkNJLjwvcHVycG9zZT4NCiAgICA8L2Rlc2NyaXB0Pg0KICAgIDxj
+aXRhdGlvbj4NCiAgICAgIDxjaXRlaW5mbz4NCiAgICAgICAgPG9yaWdpbj4gRmxvcmlkYSBEZXBh
+cnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uLCBUcmFuc3BvcnRhdGlvbiBTdGF0aXN0aWNzIE9mZmlj
+ZSAoVFJBTlNUQVQpIA0KPC9vcmlnaW4+DQogICAgICAgIDxwdWJkYXRlPjIwMTcwMjE4PC9wdWJk
+YXRlPg0KICAgICAgICA8dGl0bGU+VHJhZmZpYyBTaWduYWwgTG9jYXRpb25zPC90aXRsZT4NCiAg
+ICAgICAgPG9ubGluayBTeW5jPSJGQUxTRSI+aHR0cHM6Ly9mdHAuZmRvdC5nb3YvZmlsZS9kL0ZU
+UC9GRE9UL2NvL3BsYW5uaW5nL3RyYW5zdGF0L2dpcy9zaGFwZWZpbGVzL3RyYWZmaWNfc2lnbmFs
+X2xvY2F0aW9ucy56aXA8L29ubGluaz4NCiAgICAgICAgPHNlcmluZm8+DQogICAgICAgICAgPHNl
+cm5hbWU+VHJhZmZpYyBEYXRhIExheWVyczwvc2VybmFtZT4NCiAgICAgICAgICA8aXNzdWU+VERM
+PC9pc3N1ZT4NCiAgICAgICAgPC9zZXJpbmZvPg0KICAgICAgPC9jaXRlaW5mbz4NCiAgICA8L2Np
+dGF0aW9uPg0KICAgIDx0aW1lcGVyZD4NCiAgICAgIDxjdXJyZW50PkRhdGEgYXJlIHZhbGlkIGZy
+b20gdGhlIHB1YmxpY2F0aW9uIGRhdGUgdW50aWwgYSBuZXcgZmVhdHVyZSBjbGFzcyBpcyBwdWJs
+aXNoZWQuICBUaGlzIGRhdGFzZXQgaXMgdXBkYXRlZCBldmVyeSBTYXR1cmRheS48L2N1cnJlbnQ+
+DQogICAgICA8dGltZWluZm8+DQogICAgICAgIDxzbmdkYXRlPg0KICAgICAgICAgIDxjYWxkYXRl
+PjIwMTcwMjE4PC9jYWxkYXRlPg0KICAgICAgICA8L3NuZ2RhdGU+DQogICAgICA8L3RpbWVpbmZv
+Pg0KICAgIDwvdGltZXBlcmQ+DQogICAgPHN0YXR1cz4NCiAgICAgIDxwcm9ncmVzcz5Db21wbGV0
+ZTwvcHJvZ3Jlc3M+DQogICAgICA8dXBkYXRlPldlZWtseTwvdXBkYXRlPg0KICAgIDwvc3RhdHVz
+Pg0KICAgIDxrZXl3b3Jkcz4NCiAgICAgIDx0aGVtZT4NCiAgICAgICAgPHRoZW1la3Q+Tm9uZTwv
+dGhlbWVrdD4NCiAgICAgICAgPHRoZW1la2V5PlRyYW5zcG9ydGF0aW9uPC90aGVtZWtleT4NCiAg
+ICAgICAgPHRoZW1la2V5PlRyYWZmaWMgU2lnbmFsIExvY2F0aW9uczwvdGhlbWVrZXk+DQogICAg
+ICAgIDx0aGVtZWtleT5Sb2FkczwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5IaWdod2F5
+czwvdGhlbWVrZXk+DQogICAgICA8L3RoZW1lPg0KICAgICAgPHBsYWNlPg0KICAgICAgICA8cGxh
+Y2VrZXk+RmxvcmlkYTwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWt0Pk5vbmU8L3BsYWNla3Q+
+DQogICAgICA8L3BsYWNlPg0KICAgIDwva2V5d29yZHM+DQogICAgPGFjY2NvbnN0Pk5vbmU8L2Fj
+Y2NvbnN0Pg0KICAgIDx1c2Vjb25zdD5UaGlzIHByb2R1Y3QgaGFzIGJlZW4gY29tcGlsZWQgZnJv
+bSB0aGUgbW9zdCBhY2N1cmF0ZSBzb3VyY2UgZGF0YSBmcm9tIHRoZSBGbG9yaWRhIERlcGFydG1l
+bnQgb2YgVHJhbnNwb3J0YXRpb24ncyBUcmFuc3BvcnRhdGlvbiBTdGF0aXN0aWNzIE9mZmljZS4g
+SG93ZXZlciwgdGhpcyBwcm9kdWN0IGlzIGZvciByZWZlcmVuY2UgcHVycG9zZXMgb25seSBhbmQg
+aXMgbm90IHRvIGJlIGNvbnN0cnVlZCBhcyBhIGxlZ2FsIGRvY3VtZW50IG9yIHN1cnZleSBpbnN0
+cnVtZW50LiBBbnkgcmVsaWFuY2Ugb24gdGhlIGluZm9ybWF0aW9uIGNvbnRhaW5lZCBoZXJlaW4g
+aXMgYXQgdGhlIHVzZXIncyBvd24gcmlzay4gVGhlIEZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFu
+c3BvcnRhdGlvbiBhc3N1bWVzIG5vIHJlc3BvbnNpYmlsaXR5IGZvciBhbnkgdXNlIG9mIHRoZSBp
+bmZvcm1hdGlvbiBjb250YWluZWQgaGVyZWluIG9yIGFueSBsb3NzIHJlc3VsdGluZyB0aGVyZWZy
+b20uPC91c2Vjb25zdD4NCiAgICA8cHRjb250YWM+DQogICAgICA8Y250aW5mbz4NCiAgICAgICAg
+PGNudHZvaWNlPig4NTApIDQxNC00ODQ4PC9jbnR2b2ljZT4NCiAgICAgICAgPGNudHRkZD5GbG9y
+aWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb246IFRERC9UVFk6IDg1MC00MTAtNTcwODwv
+Y250dGRkPg0KICAgICAgICA8Y250dGRkPkZsb3JpZGEgUmVsYXk6IDcxMTwvY250dGRkPg0KICAg
+ICAgICA8Y250dGRkPkZsb3JpZGEgUmVsYXk6IDEtODAwLTk1NS04NzcxIChUVFkpPC9jbnR0ZGQ+
+DQogICAgICAgIDxjbnR0ZGQ+RmxvcmlkYSBSZWxheTogMS04MDAtOTU1LTg3NzAgKFZvaWNlKTwv
+Y250dGRkPg0KICAgICAgICA8Y250dGRkPkZsb3JpZGEgUmVsYXk6IDEtODAwLTk1NS0xMzM5IChB
+U0NJSSk8L2NudHRkZD4NCiAgICAgICAgPGNudHBlcnA+DQogICAgICAgICAgPGNudHBlcj5HSVMg
+U2VjdGlvbiBNYW5hZ2VyPC9jbnRwZXI+DQogICAgICAgICAgPGNudG9yZz5GRE9UIFRyYW5zcG9y
+dGF0aW9uIFN0YXRpc3RpY3MgT2ZmaWNlIDwvY250b3JnPg0KICAgICAgICA8L2NudHBlcnA+DQog
+ICAgICAgIDxjbnRwb3M+TWFuYWdlcjwvY250cG9zPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAg
+ICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQgcGh5c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+DQog
+ICAgICAgICAgPGFkZHJlc3M+VHJhbnNwb3J0YXRpb24gU3RhdGlzdGljcyBPZmZpY2UsIDYwNSBT
+dXdhbm5lZSBTdHJlZXQsIE1TIDI3IDwvYWRkcmVzcz4NCiAgICAgICAgICA8Y2l0eT5UYWxsYWhh
+c3NlZTwvY2l0eT4NCiAgICAgICAgICA8c3RhdGU+RmxvcmlkYTwvc3RhdGU+DQogICAgICAgICAg
+PHBvc3RhbD4zMjM5OS0wNDUwPC9wb3N0YWw+DQogICAgICAgICAgPGNvdW50cnk+VVNBPC9jb3Vu
+dHJ5Pg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAgIDxjbnR2b2ljZT5Ub2xsIEZyZWU6ICg4
+MDApIDM5OS01NTAzPC9jbnR2b2ljZT4NCiAgICAgICAgPGNudHRkZD5GbG9yaWRhIFJlbGF5OiAx
+LTg3Ny05NTUtODc3MyAoU3BhbmlzaCk8L2NudHRkZD4NCiAgICAgICAgPGNudGVtYWlsPmNvLXRy
+YW5zdGF0Z2lzQGRvdC5zdGF0ZS5mbC51czwvY250ZW1haWw+DQogICAgICA8L2NudGluZm8+DQog
+ICAgPC9wdGNvbnRhYz4NCiAgPC9pZGluZm8+DQogIDxtZXRhaW5mbz4NCiAgICA8bWV0Yz4NCiAg
+ICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFp
+bGluZyBhbmQgcGh5c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgPGNpdHk+VGFs
+bGFoYXNzZWU8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPkZsb3JpZGE8L3N0YXRlPg0KICAgICAg
+ICAgIDxwb3N0YWw+MzIzOTktMDQ1MDwvcG9zdGFsPg0KICAgICAgICAgIDxhZGRyZXNzPlRyYW5z
+cG9ydGF0aW9uIFN0YXRpc3RpY3MgT2ZmaWNlLCA2MDUgU3V3YW5uZWUgU3RyZWV0LCBNUyAyNzwv
+YWRkcmVzcz4NCiAgICAgICAgICA8Y291bnRyeT5VU0E8L2NvdW50cnk+DQogICAgICAgIDwvY250
+YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPig4NTApIDQxNC00ODQ4L1RvbGwgRnJlZTogKDgwMCkg
+Mzk5LTU1MDM8L2NudHZvaWNlPg0KICAgICAgICA8Y250cG9zPkdJUyBTZWN0aW9uIE1hbmFnZXI8
+L2NudHBvcz4NCiAgICAgICAgPGNudG9yZ3A+DQogICAgICAgICAgPGNudG9yZz5GRE9UIFRyYW5z
+cG9ydGF0aW9uIFN0YXRpc3RpY3MgT2ZmaWNlPC9jbnRvcmc+DQogICAgICAgICAgPGNudHBlcj5H
+SVMgU2VjdGlvbiBNYW5hZ2VyPC9jbnRwZXI+DQogICAgICAgIDwvY250b3JncD4NCiAgICAgICAg
+PGNudGVtYWlsPmNvLXRyYW5zdGF0Z2lzQGRvdC5zdGF0ZS5mbC51cyA8L2NudGVtYWlsPg0KICAg
+ICAgICA8Y250dGRkPkZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFuc3BvcnRhdGlvbjogVEREL1RU
+WTogODUwLTQxMC01NzA4PC9jbnR0ZGQ+DQogICAgICAgIDxjbnR0ZGQ+RmxvcmlkYSBSZWxheTog
+NzExPC9jbnR0ZGQ+DQogICAgICAgIDxjbnR0ZGQ+RmxvcmlkYSBSZWxheTogMS04MDAtOTU1LTg3
+NzEgKFRUWSk8L2NudHRkZD4NCiAgICAgICAgPGNudHRkZD5GbG9yaWRhIFJlbGF5OiAxLTgwMC05
+NTUtODc3MCAoVm9pY2UpPC9jbnR0ZGQ+DQogICAgICAgIDxjbnR0ZGQ+RmxvcmlkYSBSZWxheTog
+MS04MDAtOTU1LTEzMzkgKEFTQ0lJKTwvY250dGRkPg0KICAgICAgICA8Y250dGRkPkZsb3JpZGEg
+UmVsYXk6IDEtODc3LTk1NS04NzczIChTcGFuaXNoKTwvY250dGRkPg0KICAgICAgPC9jbnRpbmZv
+Pg0KICAgIDwvbWV0Yz4NCiAgPC9tZXRhaW5mbz4NCiAgPGRpc3RpbmZvPg0KICAgIDxzdGRvcmRl
+cj4NCiAgICAgIDxkaWdmb3JtPg0KICAgICAgICA8ZGlndGluZm8+DQogICAgICAgICAgPGZvcm1u
+YW1lPlNoYXBlZmlsZTwvZm9ybW5hbWU+DQogICAgICAgICAgPGZvcm12ZXJuPk4vQTwvZm9ybXZl
+cm4+DQogICAgICAgICAgPGZvcm1zcGVjPnNoYXBlZmlsZTwvZm9ybXNwZWM+DQogICAgICAgICAg
+PGZpbGVkZWM+emlwIGNvbXByZXNzaW9uPC9maWxlZGVjPg0KICAgICAgICA8L2RpZ3RpbmZvPg0K
+ICAgICAgICA8ZGlndG9wdD4NCiAgICAgICAgICA8b25saW5vcHQ+DQogICAgICAgICAgICA8Y29t
+cHV0ZXI+DQogICAgICAgICAgICAgIDxuZXR3b3JrYT4NCiAgICAgICAgICAgICAgICA8bmV0d29y
+a3I+aHR0cHM6Ly9mdHAuZmRvdC5nb3YvZmlsZS9kL0ZUUC9GRE9UL2NvL3BsYW5uaW5nL3RyYW5z
+dGF0L2dpcy9zaGFwZWZpbGVzL3RyYWZmaWNfc2lnbmFsX2xvY2F0aW9ucy56aXA8L25ldHdvcmty
+Pg0KICAgICAgICAgICAgICA8L25ldHdvcmthPg0KICAgICAgICAgICAgPC9jb21wdXRlcj4NCiAg
+ICAgICAgICA8L29ubGlub3B0Pg0KICAgICAgICAgIDxvZmZvcHRuPg0KICAgICAgICAgICAgPG9m
+Zm1lZGlhPkNELVJPTTwvb2ZmbWVkaWE+DQogICAgICAgICAgICA8cmVjZm10PnppcDwvcmVjZm10
+Pg0KICAgICAgICAgIDwvb2Zmb3B0bj4NCiAgICAgICAgPC9kaWd0b3B0Pg0KICAgICAgPC9kaWdm
+b3JtPg0KICAgICAgPGZlZXM+Tm9uZTwvZmVlcz4NCiAgICA8L3N0ZG9yZGVyPg0KICAgIDxkaXN0
+cmliPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRwZXJwPg0KICAgICAgICAgIDxjbnRw
+ZXI+R0lTIFNlY3Rpb24gTWFuYWdlcjwvY250cGVyPg0KICAgICAgICAgIDxjbnRvcmc+RkRPVCBU
+cmFuc3BvcnRhdGlvbiBTdGF0aXN0aWNzIE9mZmljZTwvY250b3JnPg0KICAgICAgICA8L2NudHBl
+cnA+DQogICAgICAgIDxjbnRwb3M+R0lTIFNlY3Rpb24gTWFuYWdlcjwvY250cG9zPg0KICAgICAg
+ICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQgcGh5c2ljYWwgYWRk
+cmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+VHJhbnNwb3J0YXRpb24gU3RhdGlz
+dGljcyBPZmZpY2UsIDYwNSBTdXdhbm5lZSBTdHJlZXQsIE1TLTI3PC9hZGRyZXNzPg0KICAgICAg
+ICAgIDxjaXR5PlRhbGxhaGFzc2VlPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5GbG9yaWRhPC9z
+dGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjMyMzk5LTA0NTA8L3Bvc3RhbD4NCiAgICAgICAgICA8
+Y291bnRyeT5VU0E8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZv
+aWNlPig4NTApIDQxNC00ODQ4L1RvbGwgRnJlZTogKDgwMCkgMzk5LTU1MDM8L2NudHZvaWNlPg0K
+ICAgICAgICA8Y250ZW1haWw+Y28tdHJhbnN0YXRnaXNAZG90LnN0YXRlLmZsLnVzPC9jbnRlbWFp
+bD4NCiAgICAgICAgPGNudHRkZD5GbG9yaWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb246
+IFRERC9UVFk6IDg1MC00MTAtNTcwODwvY250dGRkPg0KICAgICAgICA8Y250dGRkPkZsb3JpZGEg
+UmVsYXk6IDcxMTwvY250dGRkPg0KICAgICAgICA8Y250dGRkPkZsb3JpZGEgUmVsYXk6IDEtODAw
+LTk1NS04NzcxIChUVFkpPC9jbnR0ZGQ+DQogICAgICAgIDxjbnR0ZGQ+RmxvcmlkYSBSZWxheTog
+MS04MDAtOTU1LTg3NzAgKFZvaWNlKTwvY250dGRkPg0KICAgICAgICA8Y250dGRkPkZsb3JpZGEg
+UmVsYXk6IDEtODAwLTk1NS0xMzM5IChBU0NJSSk8L2NudHRkZD4NCiAgICAgICAgPGNudHRkZD5G
+bG9yaWRhIFJlbGF5OiAxLTg3Ny05NTUtODc3MyAoU3BhbmlzaCk8L2NudHRkZD4NCiAgICAgIDwv
+Y250aW5mbz4NCiAgICA8L2Rpc3RyaWI+DQogICAgPGRpc3RsaWFiPlRoaXMgcHJvZHVjdCBoYXMg
+YmVlbiBjb21waWxlZCBmcm9tIHRoZSBtb3N0IGFjY3VyYXRlIHNvdXJjZSBkYXRhIGZyb20gdGhl
+IEZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFuc3BvcnRhdGlvbidzIFRyYW5zcG9ydGF0aW9uIFN0
+YXRpc3RpY3MgT2ZmaWNlLiBIb3dldmVyLCB0aGlzIHByb2R1Y3QgaXMgZm9yIHJlZmVyZW5jZSBw
+dXJwb3NlcyBvbmx5IGFuZCBpcyBub3QgdG8gYmUgY29uc3RydWVkIGFzIGEgbGVnYWwgZG9jdW1l
+bnQgb3Igc3VydmV5IGluc3RydW1lbnQuIEFueSByZWxpYW5jZSBvbiB0aGUgaW5mb3JtYXRpb24g
+Y29udGFpbmVkIGhlcmVpbiBpcyBhdCB0aGUgdXNlcidzIG93biByaXNrLiBUaGUgRmxvcmlkYSBE
+ZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uIGFzc3VtZXMgbm8gcmVzcG9uc2liaWxpdHkgZm9y
+IGFueSB1c2Ugb2YgdGhlIGluZm9ybWF0aW9uIGNvbnRhaW5lZCBoZXJlaW4gb3IgYW55IGxvc3Mg
+cmVzdWx0aW5nIHRoZXJlZnJvbS48L2Rpc3RsaWFiPg0KICA8L2Rpc3RpbmZvPg0KICA8c3ByZWY+
+DQogICAgPGhvcml6c3lzPg0KICAgICAgPHBsYW5hcj4NCiAgICAgICAgPHBsYW5jaT4NCiAgICAg
+ICAgICA8Y29vcmRyZXA+DQogICAgICAgICAgICA8YWJzcmVzPjAuMDAxMDI0PC9hYnNyZXM+DQog
+ICAgICAgICAgICA8b3JkcmVzPjAuMDAxMDI0PC9vcmRyZXM+DQogICAgICAgICAgPC9jb29yZHJl
+cD4NCiAgICAgICAgPC9wbGFuY2k+DQogICAgICA8L3BsYW5hcj4NCiAgICA8L2hvcml6c3lzPg0K
+ICA8L3NwcmVmPg0KICA8ZWFpbmZvPg0KICAgIDxkZXRhaWxlZCBOYW1lPSJ0cmFmZmljX3NpZ25h
+bF9sb2NhdGlvbnMiPg0KICAgICAgPGVudHR5cD4NCiAgICAgICAgPGVudHR5cGwgU3luYz0iVFJV
+RSI+dHJhZmZpY19zaWduYWxfbG9jYXRpb25zPC9lbnR0eXBsPg0KICAgICAgICA8ZW50dHlwdCBT
+eW5jPSJUUlVFIj5GZWF0dXJlIENsYXNzPC9lbnR0eXB0Pg0KICAgICAgICA8ZW50dHlwYyBTeW5j
+PSJUUlVFIj4xMDQ4ODwvZW50dHlwYz4NCiAgICAgICAgPGVudHR5cGRzPkZsb3JpZGEgRGVwYXJ0
+bWVudCBvZiBUcmFuc3BvcnRhdGlvbiwgVHJhbnNwb3J0YXRpb24gU3RhdGlzdGljcyBPZmZpY2U8
+L2VudHR5cGRzPg0KICAgICAgICA8ZW50dHlwZD5UcmFmZmljIHNpZ25hbCBsb2NhdGlvbnMuICBS
+Q0kgZGVzaWduYXRpb24gLSBTSUdOQUxUWS48L2VudHR5cGQ+DQogICAgICA8L2VudHR5cD4NCiAg
+ICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+RklEPC9hdHRybGFibD4N
+CiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPkZJRDwvYXR0YWxpYXM+DQogICAgICAgIDxh
+dHRydHlwZSBTeW5jPSJUUlVFIj5PSUQ8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3lu
+Yz0iVFJVRSI+NDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9h
+dHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAg
+ICAgICA8YXR0cmRlZiBTeW5jPSJUUlVFIj5JbnRlcm5hbCBmZWF0dXJlIG51bWJlci48L2F0dHJk
+ZWY+DQogICAgICAgIDxhdHRyZGVmcyBTeW5jPSJUUlVFIj5FU1JJPC9hdHRyZGVmcz4NCiAgICAg
+ICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tIFN5bmM9IlRSVUUiPlNlcXVlbnRpYWwgdW5p
+cXVlIHdob2xlIG51bWJlcnMgdGhhdCBhcmUgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQuPC91ZG9t
+Pg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAg
+ICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5TaGFwZTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRh
+bGlhcyBTeW5jPSJUUlVFIj5TaGFwZTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5j
+PSJUUlVFIj5HZW9tZXRyeTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVF
+Ij4wPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lz
+Pg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICAgIDxh
+dHRyZGVmIFN5bmM9IlRSVUUiPkZlYXR1cmUgZ2VvbWV0cnkuPC9hdHRyZGVmPg0KICAgICAgICA8
+YXR0cmRlZnMgU3luYz0iVFJVRSI+RVNSSTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4N
+CiAgICAgICAgICA8dWRvbSBTeW5jPSJUUlVFIj5Db29yZGluYXRlcyBkZWZpbmluZyB0aGUgZmVh
+dHVyZXMuPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAg
+PGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5SRFdZSUQ8L2F0dHJsYWJsPg0K
+ICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+UkRXWUlEPC9hdHRhbGlhcz4NCiAgICAgICAg
+PGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0
+aCBTeW5jPSJUUlVFIj44PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWY+QSB1bmlxdWUgOC1j
+aGFyYWN0ZXIgaWRlbnRpZmljYXRpb24gbnVtYmVyIGFzc2lnbmVkIHRvIGEgcm9hZHdheSBvciBz
+ZWN0aW9uIG9mIGEgcm9hZHdheSBlaXRoZXIgT24gb3IgT2ZmIHRoZSBTdGF0ZSBIaWdod2F5IFN5
+c3RlbSBmb3Igd2hpY2ggaW5mb3JtYXRpb24gaXMgbWFpbnRhaW5lZCBpbiB0aGUgRGVwYXJ0bWVu
+dCdzIFJvYWR3YXkgQ2hhcmFjdGVyaXN0aWNzIEludmVudG9yeSAoUkNJKS48L2F0dHJkZWY+DQog
+ICAgICAgIDxhdHRyZGVmcz5GbG9yaWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24sIFRy
+YW5zcG9ydGF0aW9uIFN0YXRpc3RpY3MgT2ZmaWNlPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJk
+b212Pg0KICAgICAgICAgIDx1ZG9tPjgtY2hhcmFjdGVyIElELCB0aGUgZmlyc3QgdHdvIGNoYXJh
+Y3RlcnMgYXJlIHRoZSBjb3VudHkgY29kZSwgdGhlIG5leHQgIDMgYXJlIHRoZSBzZWN0aW9uIGNv
+ZGUsIGFuZCBmaW5hbCAzIGNoYXJhY3RlcnMgYXJlIHRoZSBzdWJzZWN0aW9uIGNvZGU8L3Vkb20+
+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9h
+dHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAg
+ICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5T
+SURFPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNJREU8L2F0dGFs
+aWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAg
+ICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjE8L2F0dHdpZHRoPg0KICAgICAgICA8YXR0cmRl
+ZnM+RmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uLCBUcmFuc3BvcnRhdGlvbiBT
+dGF0aXN0aWNzIE9mZmljZTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZGVmPlRoZSBzaWRlIG9m
+IHRoZSByb2Fkd2F5IHRoZSBzaWduYWwgaXMgbG9jYXRlZDwvYXR0cmRlZj4NCiAgICAgICAgPGF0
+dHJkb212Pg0KICAgICAgICAgIDxlZG9tPg0KICAgICAgICAgICAgPGVkb212PkM8L2Vkb212Pg0K
+ICAgICAgICAgICAgPGVkb212ZD5Db21wb3NpdGUgc2lkZSBvZiB0aGUgcm9hZCB3aGljaCBpcyBu
+b24tZGl2aWRlZC48L2Vkb212ZD4NCiAgICAgICAgICAgIDxlZG9tdmRzPkZsb3JpZGEgRGVwYXJ0
+bWVudCBvZiBUcmFuc3BvcnRhdGlvbiwgVHJhbnNwb3J0YXRpb24gU3RhdGlzdGljcyBPZmZpY2U8
+L2Vkb212ZHM+DQogICAgICAgICAgPC9lZG9tPg0KICAgICAgICAgIDxlZG9tPg0KICAgICAgICAg
+ICAgPGVkb212Pkw8L2Vkb212Pg0KICAgICAgICAgICAgPGVkb212ZD5MZWZ0IHNpZGUgb2YgdGhl
+IHJvYWR3YXk8L2Vkb212ZD4NCiAgICAgICAgICAgIDxlZG9tdmRzPkZsb3JpZGEgRGVwYXJ0bWVu
+dCBvZiBUcmFuc3BvcnRhdGlvbiwgVHJhbnNwb3J0YXRpb24gU3RhdGlzdGljcyBPZmZpY2U8L2Vk
+b212ZHM+DQogICAgICAgICAgPC9lZG9tPg0KICAgICAgICAgIDxlZG9tPg0KICAgICAgICAgICAg
+PGVkb212PlI8L2Vkb212Pg0KICAgICAgICAgICAgPGVkb212ZD5SaWdodCBzaWRlIG9mIHRoZSBy
+b2Fkd2F5PC9lZG9tdmQ+DQogICAgICAgICAgICA8ZWRvbXZkcz5GbG9yaWRhIERlcGFydG1lbnQg
+b2YgVHJhbnNwb3J0YXRpb24sIFRyYW5zcG9ydGF0aW9uIFN0YXRpc3RpY3MgT2ZmaWNlPC9lZG9t
+dmRzPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAgPGF0
+cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0i
+VFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAg
+PGF0dHJsYWJsIFN5bmM9IlRSVUUiPlZBTFVFXzwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlh
+cyBTeW5jPSJUUlVFIj5WQUxVRV88L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0i
+VFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjIw
+PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWZzPkZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFu
+c3BvcnRhdGlvbiwgVHJhbnNwb3J0YXRpb24gU3RhdGlzdGljcyBPZmZpY2U8L2F0dHJkZWZzPg0K
+ICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+
+MDE8L2Vkb212Pg0KICAgICAgICAgICAgPGVkb212ZD5GbGFzaGluZyBCZWFjb24gKDAxKTwvZWRv
+bXZkPg0KICAgICAgICAgICAgPGVkb212ZHM+RmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9y
+dGF0aW9uLCBUcmFuc3BvcnRhdGlvbiBTdGF0aXN0aWNzIE9mZmljZTwvZWRvbXZkcz4NCiAgICAg
+ICAgICA8L2Vkb20+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+MDI8L2Vk
+b212Pg0KICAgICAgICAgICAgPGVkb212ZD5UcmFmZmljIFNpZ25hbCAoc3RhbmRhcmQgcmVkL3ll
+bGxvdy9ncmVlbiB0cmFmZmljIHNpZ25hbCBsb2NhdGVkIGF0IGFuIGludGVyc2VjdGlvbiBvZiB0
+d28gb3IgbW9yZSByb2Fkd2F5cykgKDAyKTwvZWRvbXZkPg0KICAgICAgICAgICAgPGVkb212ZHM+
+RmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uLCBUcmFuc3BvcnRhdGlvbiBTdGF0
+aXN0aWNzIE9mZmljZTwvZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAgICAgPGVk
+b20+DQogICAgICAgICAgICA8ZWRvbXY+MDM8L2Vkb212Pg0KICAgICAgICAgICAgPGVkb212ZD5N
+aWQtYmxvY2sgUGVkZXN0cmlhbiBDb250cm9sIChzdGFuZGFyZCByZWQveWVsbG93L2dyZWVuIHRy
+YWZmaWMgc2lnbmFsIGZvciB0aGUgc29sZSBwdXJwb3NlIHRvIHN0b3AgdGhlIHRyYWZmaWMgZm9y
+IHBlZGVzdHJpYW5zIHRvIHNhZmVseSBjcm9zcyB0aGUgcm9hZHdheSkgKDAzKTwvZWRvbXZkPg0K
+ICAgICAgICAgICAgPGVkb212ZHM+RmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9u
+LCBUcmFuc3BvcnRhdGlvbiBTdGF0aXN0aWNzIE9mZmljZTwvZWRvbXZkcz4NCiAgICAgICAgICA8
+L2Vkb20+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+MDQ8L2Vkb212Pg0K
+ICAgICAgICAgICAgPGVkb212ZD5FbWVyZ2VuY3kgU2lnbmFsICgwNCk8L2Vkb212ZD4NCiAgICAg
+ICAgICAgIDxlZG9tdmRzPkZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFuc3BvcnRhdGlvbiwgVHJh
+bnNwb3J0YXRpb24gU3RhdGlzdGljcyBPZmZpY2U8L2Vkb212ZHM+DQogICAgICAgICAgPC9lZG9t
+Pg0KICAgICAgICAgIDxlZG9tPg0KICAgICAgICAgICAgPGVkb212PjA1PC9lZG9tdj4NCiAgICAg
+ICAgICAgIDxlZG9tdmQ+U2Nob29sIFNpZ25hbCAoMDUpPC9lZG9tdmQ+DQogICAgICAgICAgICA8
+ZWRvbXZkcz5GbG9yaWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24sIFRyYW5zcG9ydGF0
+aW9uIFN0YXRpc3RpY3MgT2ZmaWNlPC9lZG9tdmRzPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAg
+ICAgPC9hdHRyZG9tdj4NCiAgICAgICAgPGF0dHJkZWY+VHlwZXMgb2YgdHJhZmZpYyBzaWduYWxz
+PC9hdHRyZGVmPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQog
+ICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4N
+CiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+RUZGREFURTwvYXR0
+cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5FRkZEQVRFPC9hdHRhbGlhcz4N
+CiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAg
+IDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4yMDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHRyZGVmPkRh
+dGUgd2hlbiB0aGUgc2lnbmFsIHdhcyBwdXQgaW4gdXNlLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0
+dHJkZWZzPkZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFuc3BvcnRhdGlvbiwgVHJhbnNwb3J0YXRp
+b24gU3RhdGlzdGljcyBPZmZpY2U8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAg
+ICAgICAgPHVkb20+RGF0ZSB3aGVuIHRoZSBzaWduYWwgd2FzIHB1dCBpbiB1c2UuPC91ZG9tPg0K
+ICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRw
+cmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAg
+IDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+Q05U
+TFJERVM8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+Q05UTFJERVM8
+L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlw
+ZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjIwPC9hdHR3aWR0aD4NCiAgICAgICAg
+PGF0dHJkZWZzPkZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFuc3BvcnRhdGlvbiwgVHJhbnNwb3J0
+YXRpb24gU3RhdGlzdGljcyBPZmZpY2U8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRlZj5Db250
+cm9sbGVyIGRlc2NyaXB0aW9uPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAg
+ICAgPHVkb20+RGVzY3JpYmVzIHRoZSB0eXBlIG9mIHNpZ25hbCBvcGVyYXRpbmcgcGxhbiBiZWlu
+ZyB1c2VkIGF0IHRoZSBwYXJ0aWN1bGFyIHNpZ25hbGl6ZWQgaW50ZXJzZWN0aW9uLjwvdWRvbT4N
+CiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0
+cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAg
+ICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPk1B
+SU5UQUdDPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPk1BSU5UQUdD
+PC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5
+cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4yMDwvYXR0d2lkdGg+DQogICAgICAg
+IDxhdHRyZGVmcz5GbG9yaWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24sIFRyYW5zcG9y
+dGF0aW9uIFN0YXRpc3RpY3MgT2ZmaWNlPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkZWY+TWFp
+bnRhaW5pbmcgYWdlbmN5IG5hbWU8L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAg
+ICAgICA8dWRvbT5EZXNjcmliZXMgdGhlIGNpdHkgb3IgY291bnR5IHRoYXQgaGFzIGVudGVyZWQg
+aW50byBBZ3JlZW1lbnQgd2l0aCB0aGUgRGVwYXJ0bWVudCB0byBtYWludGFpbiB0aGUgc2lnbmFs
+cyBhdCB0aGUgaW50ZXJzZWN0aW9uLjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAg
+ICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUg
+U3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAg
+ICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPlNERVNUUkVUPC9hdHRybGFibD4NCiAgICAgICAg
+PGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNERVNUUkVUPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0
+eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5j
+PSJUUlVFIj4yMDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHRyZGVmcz5GbG9yaWRhIERlcGFydG1l
+bnQgb2YgVHJhbnNwb3J0YXRpb24sIFRyYW5zcG9ydGF0aW9uIFN0YXRpc3RpY3MgT2ZmaWNlPC9h
+dHRyZGVmcz4NCiAgICAgICAgPGF0dHJkZWY+U2lkZSBzdHJlZXQgbmFtZTwvYXR0cmRlZj4NCiAg
+ICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPk5hbWUgb2YgdGhlIGludGVyc2VjdGlu
+ZyBzdHJlZXQgYXQgdGhlIHRyYWZmaWMgc2lnbmFsLjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9t
+dj4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8
+YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8
+YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPlNJR05BTElEPC9hdHRybGFibD4N
+CiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNJR05BTElEPC9hdHRhbGlhcz4NCiAgICAg
+ICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3
+aWR0aCBTeW5jPSJUUlVFIj4yMDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHRyZGVmcz5GbG9yaWRh
+IERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24sIFRyYW5zcG9ydGF0aW9uIFN0YXRpc3RpY3Mg
+T2ZmaWNlPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkZWY+U2lnbmFsIGNhYmluZXQgSUQgbnVt
+YmVyPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+U2lnbmFs
+IGNhYmluZXQgSUQgbnVtYmVyIGRlc2lnbmF0ZWQgYnkgdGhlIGRpc3RyaWN0LjwvdWRvbT4NCiAg
+ICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJl
+Y2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8
+L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPlNJR05B
+TE5DPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNJR05BTE5DPC9h
+dHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+
+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4yMDwvYXR0d2lkdGg+DQogICAgICAgIDxh
+dHRyZGVmcz5GbG9yaWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24sIFRyYW5zcG9ydGF0
+aW9uIFN0YXRpc3RpY3MgT2ZmaWNlPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAg
+ICAgICAgIDxlZG9tPg0KICAgICAgICAgICAgPGVkb212PjAxPC9lZG9tdj4NCiAgICAgICAgICAg
+IDxlZG9tdmRzPkZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFuc3BvcnRhdGlvbiwgVHJhbnNwb3J0
+YXRpb24gU3RhdGlzdGljcyBPZmZpY2U8L2Vkb212ZHM+DQogICAgICAgICAgICA8ZWRvbXZkPkZs
+YXNoaW5nIEJlYWNvbjwvZWRvbXZkPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgICA8ZWRv
+bT4NCiAgICAgICAgICAgIDxlZG9tdj4wMjwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkcz5G
+bG9yaWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24sIFRyYW5zcG9ydGF0aW9uIFN0YXRp
+c3RpY3MgT2ZmaWNlPC9lZG9tdmRzPg0KICAgICAgICAgICAgPGVkb212ZD5JbnRlcnNlY3Rpb24g
+Q29udHJvbDwvZWRvbXZkPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgICA8ZWRvbT4NCiAg
+ICAgICAgICAgIDxlZG9tdj4wMzwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkcz5GbG9yaWRh
+IERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24sIFRyYW5zcG9ydGF0aW9uIFN0YXRpc3RpY3Mg
+T2ZmaWNlPC9lZG9tdmRzPg0KICAgICAgICAgICAgPGVkb212ZD5NaWQtQmxvY2sgUGVkZXN0cmlh
+biBDb250cm9sPC9lZG9tdmQ+DQogICAgICAgICAgPC9lZG9tPg0KICAgICAgICAgIDxlZG9tPg0K
+ICAgICAgICAgICAgPGVkb212PjA0PC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+RW1lcmdl
+bmN5IFNpZ25hbDwvZWRvbXZkPg0KICAgICAgICAgICAgPGVkb212ZHM+RmxvcmlkYSBEZXBhcnRt
+ZW50IG9mIFRyYW5zcG9ydGF0aW9uLCBUcmFuc3BvcnRhdGlvbiBTdGF0aXN0aWNzIE9mZmljZTwv
+ZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAg
+ICA8ZWRvbXY+Ti9BPC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+Tm90IEF2YWlsYWJsZTwv
+ZWRvbXZkPg0KICAgICAgICAgICAgPGVkb212ZHM+RmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5z
+cG9ydGF0aW9uLCBUcmFuc3BvcnRhdGlvbiBTdGF0aXN0aWNzIE9mZmljZTwvZWRvbXZkcz4NCiAg
+ICAgICAgICA8L2Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxhdHRyZGVmPk5v
+bi1jb3VudGVkIHNpZ25hbCAtIEEgbm9uLWNvdW50ZWQgc2lnYW5sIHR5cGUgY2hhcmFjdGVyaXN0
+aWMgaXMgdXNlZCB3aGVuIGEgc2lnbmFsaXplZCBpbnRlcnNlY3Rpb24gY29uc2lzdHMgb2YgdHdv
+IHN0YXRlIHJvYWRzLiAgVGhlIHJvYWR3YXkgdGhhdCBoYXMgYSBoaWdoZXIgQUFEVCBzaG91bGQg
+YmUgY29uc2lkZXJlZCB0aGUgbWFqb3Igc3RyZWV0IGFuZCByZWNvcmRlZCB1bmRlciB0aGUgU0lH
+TkFMVFkgY2hhcmFjdGVyaXN0aWMgd2hpbGUgaW50ZXJlc2N0aW5nIHJvYWR3YXkgdGhhdCBoYXMg
+YSBsb3dlciBBQURUIGlzIGNvbnNpZGVyZWQgdGhlIG1pbm9yIHN0cmVldCBhbmQgcmVjb3JkZWQg
+dW5kZXIgdGhpcyBTSUdOQUxOQyBjaGFyYWN0ZXJpc3RjLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0
+cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0i
+VFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAg
+PGF0dHJsYWJsIFN5bmM9IlRSVUUiPlNJR1NUUkNUPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFs
+aWFzIFN5bmM9IlRSVUUiPlNJR1NUUkNUPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5
+bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVF
+Ij4yMDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHRyZGVmcz5GbG9yaWRhIERlcGFydG1lbnQgb2Yg
+VHJhbnNwb3J0YXRpb24sIFRyYW5zcG9ydGF0aW9uIFN0YXRpc3RpY3MgT2ZmaWNlPC9hdHRyZGVm
+cz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDxlZG9tPg0KICAgICAgICAgICAgPGVk
+b212PjAxPC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+TWFzdCBBcm08L2Vkb212ZD4NCiAg
+ICAgICAgICAgIDxlZG9tdmRzPkZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFuc3BvcnRhdGlvbiwg
+VHJhbnNwb3J0YXRpb24gU3RhdGlzdGljcyBPZmZpY2U8L2Vkb212ZHM+DQogICAgICAgICAgPC9l
+ZG9tPg0KICAgICAgICAgIDxlZG9tPg0KICAgICAgICAgICAgPGVkb212PjAyPC9lZG9tdj4NCiAg
+ICAgICAgICAgIDxlZG9tdmQ+V29vZCBTdHJhaW4gUG9sZTwvZWRvbXZkPg0KICAgICAgICAgICAg
+PGVkb212ZHM+RmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uLCBUcmFuc3BvcnRh
+dGlvbiBTdGF0aXN0aWNzIE9mZmljZTwvZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQogICAg
+ICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+MDM8L2Vkb212Pg0KICAgICAgICAgICAg
+PGVkb212ZD5Db25jcmV0ZSBTdHJhaW4gUG9sZTwvZWRvbXZkPg0KICAgICAgICAgICAgPGVkb212
+ZHM+RmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uLCBUcmFuc3BvcnRhdGlvbiBT
+dGF0aXN0aWNzIE9mZmljZTwvZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAgICAg
+PGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+MDQ8L2Vkb212Pg0KICAgICAgICAgICAgPGVkb212
+ZD5TdGVlbCBTdHJhaW4gUG9sZTwvZWRvbXZkPg0KICAgICAgICAgICAgPGVkb212ZHM+Rmxvcmlk
+YSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uLCBUcmFuc3BvcnRhdGlvbiBTdGF0aXN0aWNz
+IE9mZmljZTwvZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAgICAgPGVkb20+DQog
+ICAgICAgICAgICA8ZWRvbXY+Ti9BPC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+Tm90IEF2
+YWlsYWJsZTwvZWRvbXZkPg0KICAgICAgICAgICAgPGVkb212ZHM+RmxvcmlkYSBEZXBhcnRtZW50
+IG9mIFRyYW5zcG9ydGF0aW9uLCBUcmFuc3BvcnRhdGlvbiBTdGF0aXN0aWNzIE9mZmljZTwvZWRv
+bXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxh
+dHRyZGVmPlR5cGUgdHJhZmZpYyBzaWduYWwgc3RydWN0dXJlPC9hdHRyZGVmPg0KICAgICAgICA8
+YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5j
+PSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAg
+ICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+VFlQRUNBQkw8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0
+YWxpYXMgU3luYz0iVFJVRSI+VFlQRUNBQkw8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUg
+U3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRS
+VUUiPjIwPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWZzPkZsb3JpZGEgRGVwYXJ0bWVudCBv
+ZiBUcmFuc3BvcnRhdGlvbiwgVHJhbnNwb3J0YXRpb24gU3RhdGlzdGljcyBPZmZpY2U8L2F0dHJk
+ZWZzPg0KICAgICAgICA8YXR0cmRlZj5UeXBlIG9mIHRyYWZmaWMgc2lnbmFsIGNhYmxlIGNvbm5l
+Y3Rpb248L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8ZWRvbT4NCiAg
+ICAgICAgICAgIDxlZG9tdj4wMTwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkPlNpbmdsZSBQ
+b2ludCBDb25uZWN0aW9uPC9lZG9tdmQ+DQogICAgICAgICAgICA8ZWRvbXZkcz5GbG9yaWRhIERl
+cGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24sIFRyYW5zcG9ydGF0aW9uIFN0YXRpc3RpY3MgT2Zm
+aWNlPC9lZG9tdmRzPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgICA8ZWRvbT4NCiAgICAg
+ICAgICAgIDxlZG9tdj4wMjwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkPlR3byBQb2ludCBD
+b25uZWN0aW9uPC9lZG9tdmQ+DQogICAgICAgICAgICA8ZWRvbXZkcz5GbG9yaWRhIERlcGFydG1l
+bnQgb2YgVHJhbnNwb3J0YXRpb24sIFRyYW5zcG9ydGF0aW9uIFN0YXRpc3RpY3MgT2ZmaWNlPC9l
+ZG9tdmRzPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgICA8ZWRvbT4NCiAgICAgICAgICAg
+IDxlZG9tdj5OL0E8L2Vkb212Pg0KICAgICAgICAgICAgPGVkb212ZD5Ob3QgQXZhaWxhYmxlPC9l
+ZG9tdmQ+DQogICAgICAgICAgICA8ZWRvbXZkcz5GbG9yaWRhIERlcGFydG1lbnQgb2YgVHJhbnNw
+b3J0YXRpb24sIFRyYW5zcG9ydGF0aW9uIFN0YXRpc3RpY3MgT2ZmaWNlPC9lZG9tdmRzPg0KICAg
+ICAgICAgIDwvZWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAgPGF0cHJlY2lzIFN5
+bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwv
+YXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJs
+IFN5bmM9IlRSVUUiPlNFQ19TVEFUPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9
+IlRSVUUiPlNFQ19TVEFUPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUi
+PlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4xMjwvYXR0
+d2lkdGg+DQogICAgICAgIDxhdHRyZGVmcz5GbG9yaWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0
+YXRpb24sIFRyYW5zcG9ydGF0aW9uIFN0YXRpc3RpY3MgT2ZmaWNlPC9hdHRyZGVmcz4NCiAgICAg
+ICAgPGF0dHJkb212Pg0KICAgICAgICAgIDxlZG9tPg0KICAgICAgICAgICAgPGVkb212Pk9OPC9l
+ZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmRzPkZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFuc3Bv
+cnRhdGlvbiwgVHJhbnNwb3J0YXRpb24gU3RhdGlzdGljcyBPZmZpY2U8L2Vkb212ZHM+DQogICAg
+ICAgICAgICA8ZWRvbXZkPkFjdGl2ZSBPbiB0aGUgU0hTIC0gUm9hZHMgb3duZWQgYW5kIG1haW50
+YWluZWQgYnkgRkRPVCBhcyBwYXJ0IG9mIHRoZSBTdGF0ZSBIaWdod2F5IFN5c3RlbSAoU0hTKSB3
+aXRoIHRoZSBleGNlcHRpb24gdGhhdCBzb21lIGFyZSBtYWludGFpbmVkIGJ5IG90aGVyIFN0YXRl
+IEFnZW5jaWVzLCBzdWNoIGFzIFN0YXRlLWNoYXJ0ZXJlZCBFeHByZXNzd2F5IEF1dGhvcml0aWVz
+LjwvZWRvbXZkPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgICA8ZWRvbT4NCiAgICAgICAg
+ICAgIDxlZG9tdj5PRkY8L2Vkb212Pg0KICAgICAgICAgICAgPGVkb212ZHM+RmxvcmlkYSBEZXBh
+cnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uLCBUcmFuc3BvcnRhdGlvbiBTdGF0aXN0aWNzIE9mZmlj
+ZTwvZWRvbXZkcz4NCiAgICAgICAgICAgIDxlZG9tdmQ+QWN0aXZlIE9mZiB0aGUgU0hTIC0gVGhl
+IFJvYWR3YXkgSUQgb3IgYSBzZWdtZW50IG9mIGEgUm9hZHdheSBJRCB0aGF0IGlzIG5vdCBwYXJ0
+IG9mIHRoZSBTdGF0ZSBIaWdod2F5IFN5c3RlbSAoU0hTKSwgd2hpY2ggaXMgbWFpbnRhaW5lZCBi
+eSBvdGhlcnMgKGNvdW50aWVzIG9yIGNpdGllcyksIHlldCBmb3Igd2hpY2ggRkRPVCBjb2xsZWN0
+cyBjZXJ0YWluIGRhdGEgZm9yIHJlcG9ydGluZyBwdXJwb3Nlcy48L2Vkb212ZD4NCiAgICAgICAg
+ICA8L2Vkb20+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+RVhDTFVTSVZF
+PC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmRzPkZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFu
+c3BvcnRhdGlvbiwgVHJhbnNwb3J0YXRpb24gU3RhdGlzdGljcyBPZmZpY2U8L2Vkb212ZHM+DQog
+ICAgICAgICAgICA8ZWRvbXZkPkVYQ0xVU0lWRSBtZWFucyBleGNsdWRlZCBmcm9tIHN0YW5kYXJk
+IG1pbGVhZ2UgcmVwb3J0cy4gVGhlc2Ugcm9hZHMgKGluY2x1ZGluZyByYW1wcywgZnJvbnRhZ2Ug
+cm9hZHMsIGFuZCBzaW1pbGFyIGNvbmZpZ3VyYXRpb25zKSBhcmUgY29uc2lkZXJlZCB0byBiZSBw
+YXJ0IG9mIGFub3RoZXIgcm9hZCwgbm90IHNlcGFyYXRlIHJvYWRzIGluIHRoZWlyIG93biByaWdo
+dCkuIFRoZSB0ZXJtIGlzIHVzdWFsbHkgdXNlZCBpbiBjb21iaW5hdGlvbiB3aXRoIEFjdGl2ZS1F
+eGNsdXNpdmUgKGFzc29jaWF0ZWQgd2l0aCBhbiBBY3RpdmUgcm9hZCBvbiB0aGUgU3RhdGUgSGln
+aHdheSBTeXN0ZW0pIG9yIEFjdGl2ZS1PZmYtRXhjbHVzaXZlIChhc3NvY2lhdGVkIHdpdGggYW4g
+QWN0aXZlIHJvYWQgdGhhdCBpcyBub3Qgb24gdGhlIFN0YXRlIEhpZ2h3YXkgU3lzdGVtKS48L2Vk
+b212ZD4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8
+ZWRvbXY+UEVORElORzwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkcz5GbG9yaWRhIERlcGFy
+dG1lbnQgb2YgVHJhbnNwb3J0YXRpb24sIFRyYW5zcG9ydGF0aW9uIFN0YXRpc3RpY3MgT2ZmaWNl
+PC9lZG9tdmRzPg0KICAgICAgICAgICAgPGVkb212ZD5OZXcgY29uc3RydWN0aW9uIGFudGljaXBh
+dGVkIHRvIGJlIGFkZGVkIHRvIHRoZSBTdGF0ZSBIaWdod2F5IFN5c3RlbSAoU0hTKS48L2Vkb212
+ZD4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRv
+bXY+Ti9BPC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+Tm90IEF2YWlsYWJsZTwvZWRvbXZk
+Pg0KICAgICAgICAgICAgPGVkb212ZHM+RmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0
+aW9uLCBUcmFuc3BvcnRhdGlvbiBTdGF0aXN0aWNzIE9mZmljZTwvZWRvbXZkcz4NCiAgICAgICAg
+ICA8L2Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxhdHRyZGVmPlNlY3Rpb24g
+U3RhdHVzPC9hdHRyZGVmPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVj
+aXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwv
+YXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+QkVHUFQ8
+L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+QkVHUFQ8L2F0dGFsaWFz
+Pg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAg
+ICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjEzPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWY+
+QmVnaW4gbWlsZSBwb2ludCBmb3IgdHJhZmZpYyBzaWduYWwgb2YgdGhlIHJvYWR3YXk8L2F0dHJk
+ZWY+DQogICAgICAgIDxhdHRyZGVmcz5GbG9yaWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRp
+b24sIFRyYW5zcG9ydGF0aW9uIFN0YXRpc3RpY3MgT2ZmaWNlPC9hdHRyZGVmcz4NCiAgICAgICAg
+PGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPkJlZ2luIG1pbGUgcG9pbnQgZm9yIHRyYWZmaWMg
+c2lnbmFsIG9mIHRoZSByb2Fkd2F5PC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAg
+ICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MTI8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUg
+U3luYz0iVFJVRSI+NDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgPC9kZXRhaWxlZD4N
+CiAgPC9lYWluZm8+DQogIDxkYXRhcXVhbD4NCiAgICA8bG9naWM+QWxsIGRhdGEgZm9yIHRoaXMg
+ZGF0YXNldCBhcmUgbG9naWNhbGx5IGNvbnNpc3RlbnQuPC9sb2dpYz4NCiAgICA8Y29tcGxldGU+
+VGhpcyBkYXRhc2V0IGlzIGNvbXBsZXRlIGFzIG9mIGRhdGUgb2YgcHJvZHVjdGlvbi48L2NvbXBs
+ZXRlPg0KICAgIDxsaW5lYWdlPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2Rlc2M+
+VGhpcyBkYXRhc2V0IHdhcyBjcmVhdGVkIHVzaW5nIEVTUkkgZXZlbnQgbWFwcGluZy4gIFRoZSBy
+b3V0ZSBzeXN0ZW0gaXMgdGhlIFRyYW5zcG9ydGF0aW9uIFN0YXRpc3RpY3MnIGJhc2VtYXAgcm91
+dGVzLiAgVGhlIGV2ZW50IHNvdXJjZSBkYXRhIGFyZSBmcm9tIHRoZSBzaWduYWx0eSB0YWJsZSBz
+dG9yZWQgaW4gT3JhY2xlLiAgVGhlIHF1ZXJ5IHVzZWQgdG8gZ2VuZXJhdGUgdGhlIGV2ZW50IHNv
+dXJjZSB0YWJsZSBpczoNCnNlbGVjdCAqIGZyb20gc2lnbmFsdHk7PC9wcm9jZGVzYz4NCiAgICAg
+ICAgPHByb2Nzdj5FU1JJIEFyY09iamVjdHM8L3Byb2Nzdj4NCiAgICAgICAgPHByb2NkYXRlPjIw
+MTcwMjE4PC9wcm9jZGF0ZT4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgPC9saW5lYWdlPg0KICA8
+L2RhdGFxdWFsPg0KPC9tZXRhZGF0YT4=</Data>
+		</Enclosure>
+	</Binary>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode code="26917" Sync="TRUE" value="26917">
+				</identCode>
+				<idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+				<idVersion Sync="TRUE">7.4.1</idVersion>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep><geometObjs Name="traffic_signal_locations"><geoObjTyp><GeoObjTypCd value="004" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">10503</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo>
+	<mdDateSt Sync="TRUE">20180120</mdDateSt>
+</metadata>
